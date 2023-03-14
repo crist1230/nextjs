@@ -1,2 +1,7 @@
-ROUTING /////////////////////////////////////////////////
+ROUTING //////////////////////////////////////////////////////////////////////////////////////////////////
     - based on folder structure, everything in "pages" folder gets rendered as a page
+
+    - router.push('url');
+        => goes to url
+    - router.replace('url');
+        => goes to url, but doesn't allow navigation back. Good for form submissions.

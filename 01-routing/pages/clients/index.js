@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
-function HomePage() {
+const ClientsPage = () => {
     return (
         <div>
-            <h1>The Home Page</h1>
+            <h1>The Clients Page</h1>
             <ul>
                 <li>
-                    <Link href='/portfolio'>Portfolio</Link>
+                    <Link href='/clients/max'>Max</Link>
                 </li>
             </ul>
         </div>
     );
-}
+};
 
-export default HomePage;
+export default ClientsPage;
