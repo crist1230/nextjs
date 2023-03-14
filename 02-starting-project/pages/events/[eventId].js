@@ -1,4 +1,4 @@
-const SingleEvent = () => {
+const EventDetailPage = () => {
     return (
         <div>
             <h1>This is a single event page</h1>
@@ -6,4 +6,4 @@ const SingleEvent = () => {
     );
 };
 
-export default SingleEvent;
+export default EventDetailPage;

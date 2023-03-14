@@ -8,3 +8,5 @@
       do anything within that structure
         -> NEXTjs builds up on REACT and gives you features you'd have to install
            using a third party library otherwise.
+
+- the public folder allows visitors of your website to access anything in there (mainly images and fonts)

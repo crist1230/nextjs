@@ -1,4 +1,4 @@
-const FilteredEvents = () => {
+const FilteredEventsPage = () => {
     return (
         <div>
             <h1>This is filtered events page</h1>
@@ -6,4 +6,4 @@ const FilteredEvents = () => {
     );
 };
 
-export default FilteredEvents;
+export default FilteredEventsPage;
