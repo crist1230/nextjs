@@ -1,0 +1,10 @@
+== FRAMEWORKS ==
+    - REACT is a js library for building user interfaces (the front end)
+        aka: REACT provides you with some tools to help you get started
+        -> if you want to use REACT for more than just UI, you'd have to get help
+           from other libraries to help with routing and authentication, etc.
+
+    - NEXTjs is a fullstack js framework that basically gives you the structure and you can
+      do anything within that structure
+        -> NEXTjs builds up on REACT and gives you features you'd have to install
+           using a third party library otherwise.
