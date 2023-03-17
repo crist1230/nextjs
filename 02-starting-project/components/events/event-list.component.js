@@ -6,7 +6,7 @@ const EventList = (props) => {
         <ul>
             {items.map((item) => {
                 return (
-                    <EventItem key={item.id} title={item.title} />
+                    <EventItem key={item.id} event={item} />
                 );
             })}
         </ul>
