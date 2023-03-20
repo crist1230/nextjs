@@ -10,3 +10,6 @@
            using a third party library otherwise.
 
 - the public folder allows visitors of your website to access anything in there (mainly images and fonts)
+
+== INITIALIZATION ==
+  https://nextjs.org/learn/basics/create-nextjs-app/setup
