@@ -1,1 +1,18 @@
 - Nextjs automatically prerenders all pages that have no dynamic data
+
+== getStaticProps ==
+    - only used in page components
+    - will execute code before prerendering page (so you can get info from the db)
+
+    - instead of using useEffect to call from the db, use this function and call before
+      the prerender
+
+    - runs before component function runs
+
+== STATIC GENERATION == 
+    - generates the html without any dynamic data
+
+    - incremental static generation === regenerates after a certain amount of time
+      without needing to deploy again (during development, the number doesn't matter,
+      the page will regenerate every time there's a request, during production, the
+      page will only regenerate after the time has past)
