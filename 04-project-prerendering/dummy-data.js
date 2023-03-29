@@ -31,6 +31,18 @@ const DUMMY_EVENTS = [
   },
 ];
 
+export async function getEvents() {  
+  const response = await fetch('https://nextjs-2d431-default-rtdb.firebaseio.com/events.json');
+  const data = await response.json();
+
+  const events = [];
+  for (const key in data) {
+    events.push({ id: key, ...data[key] });
+  }
+
+  return events;
+}
+
 export function getFeaturedEvents() {
   return DUMMY_EVENTS.filter((event) => event.isFeatured);
 }

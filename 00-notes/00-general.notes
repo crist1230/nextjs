@@ -13,3 +13,7 @@
 
 == INITIALIZATION ==
   https://nextjs.org/learn/basics/create-nextjs-app/setup
+
+- useRef(initialValue) will create a variable that won't rerender for the lifetime of a component
+
+- a function signature defines the inputs and outputs of a function
