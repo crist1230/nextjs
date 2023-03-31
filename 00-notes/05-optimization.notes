@@ -1,0 +1,9 @@
+- metadata is data that gives information about other data
+
+- Image from 'next/image' is better than <img>
+    - it will automatically reformat the image file type to whatever the browser
+      optimizes the best
+    - it will only render images that are visible, reducing the number or requests
+      made and the bandwidth
+    - the width and height will be overridden with the css styling, but those
+      attributes just tell next js what size to fetch the images in

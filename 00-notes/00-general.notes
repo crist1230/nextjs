@@ -10,7 +10,6 @@
            using a third party library otherwise.
 == END =======================================================================================
 
-<<<<<<< Updated upstream
 - the public folder allows visitors of your website to access anything in there (mainly images and fonts)
 
 == INITIALIZATION ==
@@ -19,7 +18,6 @@
 - useRef(initialValue) will create a variable that won't rerender for the lifetime of a component
 
 - a function signature defines the inputs and outputs of a function
-=======
 - the public folder allows visitors of your website to access anything in there (mainly
   images and fonts)
 
@@ -28,4 +26,6 @@
 
 - _app.js is the file that will generate the page based on what url you're on.
   -> the '<Component />' corresponds to the correct file in the 'pages' folder
->>>>>>> Stashed changes
+
+- in _document.js, you can add a new html document struture and add an overlay div and use REACT
+  portal to sync all modals and overlays to it (lec 135)
