@@ -1,4 +1,4 @@
-== FRAMEWORKS ==
+== FRAMEWORKS ================================================================================
     - REACT is a js library for building user interfaces (the front end)
         aka: REACT provides you with some tools to help you get started
         -> if you want to use REACT for more than just UI, you'd have to get help
@@ -8,7 +8,9 @@
       do anything within that structure
         -> NEXTjs builds up on REACT and gives you features you'd have to install
            using a third party library otherwise.
+== END =======================================================================================
 
+<<<<<<< Updated upstream
 - the public folder allows visitors of your website to access anything in there (mainly images and fonts)
 
 == INITIALIZATION ==
@@ -17,3 +19,13 @@
 - useRef(initialValue) will create a variable that won't rerender for the lifetime of a component
 
 - a function signature defines the inputs and outputs of a function
+=======
+- the public folder allows visitors of your website to access anything in there (mainly
+  images and fonts)
+
+- when you are adding classes to a component you have to end the file name with '.module.css',
+  it's just a naming convention
+
+- _app.js is the file that will generate the page based on what url you're on.
+  -> the '<Component />' corresponds to the correct file in the 'pages' folder
+>>>>>>> Stashed changes
