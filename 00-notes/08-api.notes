@@ -1,3 +1,9 @@
 - api = Application Programing Interface
 
 - REST API = Representation State Transfer
+
+- in NextJS, anything in that pages/api route folder won't be seen by the client and gets executed on the server
+
+- when you're using getStaticProps(), it's fine to use fetch to call from a third party api, but don't fetch an 
+  HTTP request from your own api routes, just utiliaze the same functions over in the getStaticProps as you would
+  the fetch

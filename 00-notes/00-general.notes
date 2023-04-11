@@ -29,3 +29,5 @@
 
 - in _document.js, you can add a new html document struture and add an overlay div and use REACT
   portal to sync all modals and overlays to it (lec 135)
+
+- in fetch(), the first argument is the path to fetch and if you start it with '/' it will go from the root
